@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    var items: rawItem = load("datas.json")
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(alignment: .leading) {
+            Text("App")
+                .font(.title)
+            ScrollView(.vertical, showsIndicators: true) {
+                ForEach(0 ... items.results.count-1, id: \.self) { index in
+                    ListRow(item: items.results[index], like: false)
+                }
+            }
         }
         .padding()
     }

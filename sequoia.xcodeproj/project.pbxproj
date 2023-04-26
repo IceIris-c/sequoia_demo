@@ -14,6 +14,9 @@
 		2B5E826D29F9612E00F5EC44 /* sequoiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E826C29F9612E00F5EC44 /* sequoiaTests.swift */; };
 		2B5E827729F9612E00F5EC44 /* sequoiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E827629F9612E00F5EC44 /* sequoiaUITests.swift */; };
 		2B5E827929F9612E00F5EC44 /* sequoiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E827829F9612E00F5EC44 /* sequoiaUITestsLaunchTests.swift */; };
+		2B5E828629F9617E00F5EC44 /* datas.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B5E828529F9617E00F5EC44 /* datas.json */; };
+		2B5E828829F9619200F5EC44 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E828729F9619200F5EC44 /* Model.swift */; };
+		2B5E828A29F9619900F5EC44 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E828929F9619900F5EC44 /* ListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		2B5E827229F9612E00F5EC44 /* sequoiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sequoiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5E827629F9612E00F5EC44 /* sequoiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sequoiaUITests.swift; sourceTree = "<group>"; };
 		2B5E827829F9612E00F5EC44 /* sequoiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sequoiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B5E828529F9617E00F5EC44 /* datas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = datas.json; path = sequoia/datas.json; sourceTree = "<group>"; };
+		2B5E828729F9619200F5EC44 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2B5E828929F9619900F5EC44 /* ListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		2B5E824F29F9612C00F5EC44 = {
 			isa = PBXGroup;
 			children = (
+				2B5E828529F9617E00F5EC44 /* datas.json */,
 				2B5E825A29F9612C00F5EC44 /* sequoia */,
 				2B5E826B29F9612E00F5EC44 /* sequoiaTests */,
 				2B5E827529F9612E00F5EC44 /* sequoiaUITests */,
@@ -96,6 +103,8 @@
 			children = (
 				2B5E825B29F9612C00F5EC44 /* sequoiaApp.swift */,
 				2B5E825D29F9612C00F5EC44 /* ContentView.swift */,
+				2B5E828729F9619200F5EC44 /* Model.swift */,
+				2B5E828929F9619900F5EC44 /* ListRow.swift */,
 				2B5E825F29F9612E00F5EC44 /* Assets.xcassets */,
 				2B5E826129F9612E00F5EC44 /* Preview Content */,
 			);
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5E828629F9617E00F5EC44 /* datas.json in Resources */,
 				2B5E826329F9612E00F5EC44 /* Preview Assets.xcassets in Resources */,
 				2B5E826029F9612E00F5EC44 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5E828A29F9619900F5EC44 /* ListRow.swift in Sources */,
+				2B5E828829F9619200F5EC44 /* Model.swift in Sources */,
 				2B5E825E29F9612C00F5EC44 /* ContentView.swift in Sources */,
 				2B5E825C29F9612C00F5EC44 /* sequoiaApp.swift in Sources */,
 			);
